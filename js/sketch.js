@@ -2,7 +2,10 @@ let portal;
 
 function setup(){
     createCanvas(800, 800);
-    ball = new Ball(50, width, height);
+	ball = new Ball(50, width, height);
+	
+	//Controls
+	alert("CONTROLS\n\nArrows: Navigate\nLeft Mouse Click: Blue Portal\nRight Mouse Click: Orange Portal\n");
 
     frameRate(50);
 }
